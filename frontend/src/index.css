@@ -1,0 +1,204 @@
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Arial";
+  color: #333;
+ 
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border-bottom: 4px solid #bab6b6;
+  border-radius: 5px;
+}
+.navbar h1 {
+  color: #f13535;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ae1442;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+
+/* blog previews / list */
+.blog-preview {
+  
+  font-size: 16px;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 20px;
+  transition: 1s;
+  background: #f7f6f6;
+}
+.blog-preview:hover {
+  box-shadow: 1.5px 4.5px 7.5px rgba(0,0,0,0.1);
+  background: #fff7027f;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1094e;
+  margin-bottom: 8px;
+}
+.blog-preview h4 {
+  font-size: 18px;
+  color: #e6850e;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-preview button {
+  background: #ff017cf3;
+  color: #ffffff;
+  border: 4px;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blog-preview button:hover {
+  background: #ff7701;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+/* login form */
+.login {
+
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 25px;
+  text-align: center;
+  border: 2px solid #bcbaba;
+  border-radius: 10px;
+  background: #f7f6f6;
+}
+.login label {
+  text-align: left;
+  display: block;
+}
+.login h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.login input, .login textarea, .login select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background: #ff7701;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 25px;
+  text-align: center;
+  border: 2px solid #bcbaba;
+  border-radius: 10px;
+  background: #f7f6f6;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create button:hover {
+  background: #f59300;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+/* login form */
+.signup {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 25px;
+  text-align: center;
+  border: 2px solid #bcbaba;
+  border-radius: 10px;
+  background: #f7f6f6;
+}
+.signup label {
+  text-align: left;
+  display: block;
+}
+.signup h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.signup input, .signup textarea, .signup select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.signup button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup button:hover {
+  background: #ff7701;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
