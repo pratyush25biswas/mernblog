@@ -5,10 +5,16 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app  = express();
-const port = process.env.PORT ;
+const port = process.env.PORT || 5000;
 
-app.use(cors());
-app.options("*",cors())
+app.use(cors(
+  {
+    "origin": "*",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    
+  }
+));
+//app.options("*",cors())
 // app.use(cors({
 //   origin: '*'
 // }));
