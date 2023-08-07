@@ -31,7 +31,7 @@ export default class Bloglist extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/blogs/')
+    axios.get('https://pratyushrajbiswas.onrender.com/blogs/')
       .then(response => {
         this.setState({ blogs: response.data })
       })
@@ -41,7 +41,7 @@ export default class Bloglist extends Component {
   }
 
   deleteBlog(id) {
-    axios.delete('http://localhost:5000/blogs/'+id)
+    axios.delete('https://pratyushrajbiswas.onrender.com/blogs/'+id)
       .then(response => { console.log(response.data)});
 
     this.setState({

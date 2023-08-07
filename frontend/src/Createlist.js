@@ -25,7 +25,7 @@ export default class Createblog extends Component {
 
 
     componentDidMount() {
-        axios.get('http://localhost:5000/users/')
+        axios.get('https://pratyushrajbiswas.onrender.com/users/')
           .then(response => {
             if (response.data.length > 0) {
               this.setState({
@@ -73,7 +73,7 @@ export default class Createblog extends Component {
         console.log(blog);
 
         
-        axios.post('http://localhost:5000/blogs/add', blog, {
+        axios.post('https://pratyushrajbiswas.onrender.com/blogs/add', blog, {
             headers: {
               'Content-Type': 'application/json'
             }

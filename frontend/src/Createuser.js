@@ -44,7 +44,7 @@ export default class Createuser extends Component {
         
        
        
-        axios.post('http://localhost:5000/users/add', authpwd, {
+        axios.post('https://pratyushrajbiswas.onrender.com/users/add', authpwd, {
             headers: {
               'Content-Type': 'application/json'
             }
