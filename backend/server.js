@@ -10,6 +10,11 @@ const port = process.env.PORT || 5000;
 app.use(cors({
   origin: '*'
 }));
+
+app.use(cors({
+  methods: ['GET','POST','DELETE','UPDATE','PUT']
+}));
+
 app.use(express.json());
 
 const uri = process.env.ATLAS_URI;
