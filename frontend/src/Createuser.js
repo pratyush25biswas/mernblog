@@ -49,7 +49,14 @@ export default class Createuser extends Component {
               'Content-Type': 'application/json'
             }
         })
-        window.location= '/create';
+        .then((response) => {
+            console.log(response);
+            window.location= '/create';
+          }, (error) => {
+            console.log(error);
+            window.location= '/create';
+          });
+        
     }
 
     render(){
